@@ -1,0 +1,37 @@
+body {
+  min-height:100vh;
+  background-image: url('../../assets/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+header {
+  background-color: rgba(120, 120, 120, 0.5);
+  padding: 4vh;
+}
+footer {
+  background-color: rgb(30, 30, 30);
+  color: #e6e6e6;
+}
+.container-fluid {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.loginform {
+  background-color: rgba(217, 217, 217, 0.7);
+}
+.flex-fill {
+  flex:1 1 auto;
+}
+.text-green {
+  color: #79c806;
+}
+a.text-green:hover{
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
